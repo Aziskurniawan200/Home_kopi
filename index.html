@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Azis Kurniawan</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- Navbar start -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">Azis Kurniawan <span>Coffee</span>.</a>
+
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#products">Produk</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search-button"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart-button"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+
+      <!-- Search Form start -->
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here..." />
+        <label for="search-box"><i data-feather="search"></i></label>
+      </div>
+      <!-- Search Form end -->
+
+      <!-- Shopping Cart start -->
+      <div class="shopping-cart">
+        <div class="cart-item">
+          <img src="img/products/kopi 1.jpg" alt="Product 1" />
+          <div class="item-detail">
+            <h3>Product 1</h3>
+            <div class="item-price">IDR 40K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img src="img/products/kopi 2.jpg" alt="Product 1" />
+          <div class="item-detail">
+            <h3>Product 2</h3>
+            <div class="item-price">IDR 30K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img src="img/products/kopi 3.jpg" alt="Product 1" />
+          <div class="item-detail">
+            <h3>Product 3</h3>
+            <div class="item-price">IDR 35K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+      </div>
+      <!-- Shopping Cart end -->
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- Hero Section start -->
+    <section class="hero" id="home">
+      <div class="mask-container">
+        <main class="content">
+          <h1>Cinta di Tegukan Pertama <span>Coffee</span></h1>
+          <p>
+            "Jika cuma ingin sekedar singgah, beri saja aku kopi, jangan beri aku hati."
+          </p>
+        </main>
+      </div>
+    </section>
+    <!-- Hero Section end -->
+
+    <!-- About Section start -->
+    <section id="about" class="about">
+      <h2><span>Tentang</span> Kami</h2>
+
+      <div class="row">
+        <div class="about-img">
+          <img src="img/kopi info.jpg" alt="Tentang Kami" />
+        </div>
+        <div class="content">
+          <h3>Kenapa memilih kopi kami?</h3>
+          <p>
+            Kami hanya menggunakan biji kopi pilihan terbaik dari kebun-kebun kopi terbaik
+            di dunia. Proses pemilihan dan pengolahan yang teliti memastikan setiap
+            cangkir kopi yang Anda nikmati memiliki rasa yang luar biasa!
+          </p>
+          <p>
+            Setiap jenis kopi kami memiliki profil rasa yang unik, mulai dari yang halus
+            dan ringan hingga yang kuat dan berani. Nikmati pengalaman rasa yang tidak
+            bisa Anda temukan di tempat lain.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- About Section end -->
+
+    <!-- Menu Section start -->
+    <section id="menu" class="menu">
+      <h2><span>Menu</span> Kami</h2>
+      <p>
+        Aku kamu & Coffe menyediakan banyak pilihan varian kopi berikut dibawah ini
+        bebrapa jenis kopi
+      </p>
+
+      <div class="row">
+        <div class="menu-card">
+          <img src="img/menu/kopsu american.jpg" alt="Espresso" class="menu-card-img" />
+          <h3 class="menu-card-title">- American mix Espresso -</h3>
+          <p class="menu-card-price">IDR 15K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/kopi capucino.jpg" alt="Espresso" class="menu-card-img" />
+          <h3 class="menu-card-title">- Capuccino -</h3>
+          <p class="menu-card-price">IDR 20K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/kopsu aren.jpg" alt="Espresso" class="menu-card-img" />
+          <h3 class="menu-card-title">- Coffe gula aren -</h3>
+          <p class="menu-card-price">IDR 17K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/kopsu dalgona.png" alt="Espresso" class="menu-card-img" />
+          <h3 class="menu-card-title">- Dalgona -</h3>
+          <p class="menu-card-price">IDR 16K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/kopsu freas.jpg" alt="Espresso" class="menu-card-img" />
+          <h3 class="menu-card-title">- Latte -</h3>
+          <p class="menu-card-price">IDR 15K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/kopsu es krim.jpg" alt="Espresso" class="menu-card-img" />
+          <h3 class="menu-card-title">- Coffe ice cream -</h3>
+          <p class="menu-card-price">IDR 25K</p>
+        </div>
+      </div>
+    </section>
+    <!-- Menu Section end -->
+
+    <!-- Products Section start -->
+    <section class="products" id="products">
+      <h2><span>Produk Unggulan</span> Kami</h2>
+      <p>
+        Berikut ini merupakan pruduk unggulan dari Aku Kamu & Coffe dan sudah terjual ke
+        seluruh penjuru nusantara
+      </p>
+
+      <div class="row">
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/products/kopi 1.jpg" alt="Product 1" />
+          </div>
+          <div class="product-content">
+            <h3>Arabika Coffee</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 40K <span>IDR 60K</span></div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/products/kopi 2.jpg" alt="Product 2" />
+          </div>
+          <div class="product-content">
+            <h3>Robusta Coffee</h3>
+            <div class="product-stars">
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 30K <span>IDR 50K</span></div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/products/kopi 3.jpg" alt="Product 3" />
+          </div>
+          <div class="product-content">
+            <h3>Liberica Coffee</h3>
+            <div class="product-stars">
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 35K <span>IDR 55K</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Products Section end -->
+
+    <!-- Contact Section start -->
+    <section id="contact" class="contact">
+      <h2><span>Kontak</span> Kami</h2>
+      <p>Hubungi kontak di bawah ini untuk mendapatkan kopi terbaik di Indonesia</p>
+
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1983.3678165786123!2d106.64068032552818!3d-6.166146746507786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f8c60db93af7%3A0x2526e57d67b6eefc!2sJl.%20Lio%20Baru%20No.1%2C%20RT.002%2FRW.004%2C%20Karang%20Sari%2C%20Kec.%20Neglasari%2C%20Kota%20Tangerang%2C%20Banten%2015121!5e0!3m2!1sid!2sid!4v1716743812437!5m2!1sid!2sid"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="nama" />
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="text" placeholder="email" />
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="text" placeholder="no hp" />
+          </div>
+          <button type="submit" class="btn">kirim pesan</button>
+        </form>
+      </div>
+    </section>
+    <!-- Contact Section end -->
+
+    <!-- Footer start -->
+    <footer>
+      <div class="socials">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="twitter"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+      </div>
+
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="credit">
+        <p>Created by <a href="">Azis kurniawan</a>. | &copy; 2024.</p>
+      </div>
+    </footer>
+    <!-- Footer end -->
+
+    <!-- Modal Box Item Detail start -->
+    <div class="modal" id="item-detail-modal">
+      <div class="modal-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="img/products/kopi 1.jpg" alt="Product 1" />
+          <div class="product-content">
+            <h3>Product 1</h3>
+            <p>
+              Kopi Arabika adalah pilihan yang sangat dihargai oleh banyak penikmat kopi
+              karena profil rasa dan aroma yang superior. Ketelitian dalam proses
+              penanaman dan pengolahan menjadikan kopi ini lebih mahal dibandingkan dengan
+              jenis kopi lainnya, namun sepadan dengan kualitas rasa yang ditawarkan.
+            </p>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 40K <span>IDR 60K</span></div>
+            <a href="#"><i data-feather="shopping-cart"></i> <span>add to cart</span></a>
+          </div>
+        </div>
+        <div class="modal-content">
+          <img src="img/products/kopi 2.jpg" alt="Product 1" />
+          <div class="product-content">
+            <h3>Product 2</h3>
+            <p>
+              Kopi Robusta adalah pilihan yang lebih ekonomis dan praktis untuk banyak
+              produsen kopi karena ketahanannya terhadap penyakit dan kemudahan dalam
+              budidaya. Meskipun rasa dan aroma Robusta kurang dihargai dibandingkan
+              Arabika, penggunaan yang tepat dalam campuran kopi dapat memberikan profil
+              rasa yang diinginkan oleh berbagai penikmat kopi.
+            </p>
+
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 30K <span>IDR 50K</span></div>
+            <a href="#"><i data-feather="shopping-cart"></i> <span>add to cart</span></a>
+          </div>
+        </div>
+        <div class="modal-content">
+          <img src="img/products/kopi 3.jpg" alt="Product 3" />
+          <div class="product-content">
+            <h3>Product 3</h3>
+            <p>
+              Kopi Liberica menawarkan pengalaman yang berbeda bagi penikmat kopi, dengan
+              profil rasa dan aroma yang unik. Meskipun kurang dikenal dan diproduksi
+              dalam jumlah yang lebih kecil, kopi ini memiliki penggemar setia yang
+              menghargai keunikan dan kompleksitasnya.
+            </p>
+
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 35K <span>IDR 55K</span></div>
+            <a href="#"><i data-feather="shopping-cart"></i> <span>add to cart</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Box Item Detail end -->
+
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- My Javascript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
